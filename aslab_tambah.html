@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Edit Jumbotron</title>
+    <title>Tambah Jumbotron</title>
 </head>
 <body>
     
@@ -46,7 +46,7 @@
           </nav>
     </header>
 
-    <h1 class="text-center">Jumbotron</h1>
+    <h1 class="text-center">Kontak Aslab</h1>
     <div class="konten-genap">
       <div class="container w-50">
         <!-- Content -->
@@ -54,19 +54,23 @@
           <div class="col">
             <form action="">
               <div class="mb-3">
-                <label for="judul">Judul</label>
-                <input type="text" class="form-control" name="judul">
+                <label for="jabatan" class="form-label">Jabatan</label>
+                <input type="text" class="form-control" name="jabatan" placeholder="Masukan jabatan..">
               </div>
               <div class="mb-3">
-                <label for="isi">Isi</label>
-                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                <label for="isi" class="form-label">Nama</label>
+                <input type="text" class="form-control" name="nama">
               </div>
               <div class="mb-3">
-                <label for="foto">Foto</label>
+                <label for="nomor" class="form-label">Nomor Hp</label>
+                <input type="text" class="form-control" name="nomor">
+              </div>
+              <div class="mb-3">
+                <label for="foto" class="form-label">Foto</label>
                 <input type="file" class="form-control">
               </div>
               <div class="mb-3">
-                <input type="submit" class="btn btn-lg btn-primary" value="Kirim">
+                <input type="submit" name="submit" class="btn btn-lg btn-primary" value="Kirim">
               </div>
             </form>
           </div>
