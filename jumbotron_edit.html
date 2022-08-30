@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Edit Jumbotron</title>
+    <title>Edit Pengumuman</title>
 </head>
 <body>
     
@@ -26,28 +26,17 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#pengumuman">Pengumuman</a>
+                    <a class="nav-link active text-danger" href="#">Back</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Modul</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Kelas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#pengaduan">Jadwal</a>
-                  </li>                  
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#pengaduan">Pengaduan</a>
-                  </li>
+        
                 </ul>
               </div>
             </div>
           </nav>
     </header>
 
-    <h1 class="text-center">Jumbotron</h1>
-    <div class="konten-genap">
+    <h1 class="text-center">Edit Pengumuman</h1>
+    <div class="konten-genap p-3">
       <div class="container w-50">
         <!-- Content -->
         <div class="row">
@@ -55,18 +44,18 @@
             <form action="">
               <div class="mb-3">
                 <label for="judul">Judul</label>
-                <input type="text" class="form-control" name="judul">
+                <input type="text" class="form-control" name="judul" placeholder="#id_pengumuman">
               </div>
               <div class="mb-3">
                 <label for="isi">Isi</label>
-                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                <textarea name="pengumuman" id="pengumuman" cols="30" rows="10" class="form-control" placeholder="#isi_Pengumuman sesuai database"></textarea>
               </div>
               <div class="mb-3">
                 <label for="foto">Foto</label>
-                <input type="file" class="form-control">
+                <input type="file" class="form-control" name="foto">
               </div>
               <div class="mb-3">
-                <input type="submit" class="btn btn-lg btn-primary" value="Kirim">
+                <input name="submit" type="submit" class="btn btn-lg btn-primary" value="Kirim">
               </div>
             </form>
           </div>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Tambah Jumbotron</title>
+    <title>Tambah Pengumuman</title>
 </head>
 <body>
     
@@ -26,19 +26,7 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#pengumuman">Pengumuman</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Modul</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Kelas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#pengaduan">Jadwal</a>
-                  </li>                  
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#pengaduan">Pengaduan</a>
+                    <a class="nav-link active text-danger" href="#">Back</a>
                   </li>
                 </ul>
               </div>
@@ -46,7 +34,7 @@
           </nav>
     </header>
 
-    <h1 class="text-center">Jumbotron</h1>
+    <h1 class="text-center">Tambah Pengumuman</h1>
     <div class="konten-genap">
       <div class="container w-50">
         <!-- Content -->
@@ -55,15 +43,15 @@
             <form action="">
               <div class="mb-3">
                 <label for="judul">Judul</label>
-                <input type="text" class="form-control" name="judul" placeholder="Masukan judul...">
+                <input type="text" class="form-control" name="judul" placeholder="Masukan judul pengumuman...">
               </div>
               <div class="mb-3">
                 <label for="isi">Isi</label>
-                <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Isi Pengumuman"></textarea>
+                <textarea name="pengumuman" id="pengumuman" cols="30" rows="10" class="form-control" placeholder="Masukan Isi Pengumuman..."></textarea>
               </div>
               <div class="mb-3">
                 <label for="foto">Foto</label>
-                <input type="file" class="form-control">
+                <input type="file" class="form-control" name="foto">
               </div>
               <div class="mb-3">
                 <input type="submit" name="submit" class="btn btn-lg btn-primary" value="Kirim">
