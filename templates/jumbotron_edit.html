@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Edit Pengumuman</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+            <div class="container">
+                <a class="navbar-brand" href="/admin">
+                    <img src="static/img/praktikum.jpeg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+                    <!-- <img src="static/img/logo aslab Final-14.png" alt="" width="30" height="30" class="d-inline-block align-text-top"> -->
+                    Sistem Informasi Praktikum - ASCII
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-danger" href="/jumbotron_admin">Back</a>
+                  </li>
+        
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <h1 class="text-center">Edit Pengumuman</h1>
+    <div class="konten-genap p-3">
+      <div class="container w-50">
+        <!-- Content -->
+        <div class="row">
+          <div class="col">
+            <form action="">
+              <div class="mb-3">
+                <label for="judul">Judul</label>
+                <input type="text" class="form-control" name="judul" placeholder="#id_pengumuman">
+              </div>
+              <div class="mb-3">
+                <label for="isi">Isi</label>
+                <textarea name="pengumuman" id="pengumuman" cols="30" rows="10" class="form-control" placeholder="#isi_Pengumuman sesuai database"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="foto">Foto</label>
+                <input type="file" class="form-control" name="foto">
+              </div>
+              <div class="mb-3">
+                <input name="submit" type="submit" class="btn btn-lg btn-primary" value="Kirim">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+      <footer>
+        <p class="text-center">Praktikum Informatika - ASCII @ 2022</p>
+      </footer>
+
+
+    <script src="static/js/bootstrap.js"></script>
+</body>
+</html>
